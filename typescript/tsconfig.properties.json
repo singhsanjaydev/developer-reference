@@ -1,0 +1,216 @@
+// TypeScript version: 5.x
+// Reference documentation: TypeScript TSConfig
+// Last verified: 01-10-2026
+
+/** ##### TSCONFIG.JSON TEMPLATE */
+{
+  /** ===== Top Level */
+  "files": [],
+  "include": [],
+  "exclude": [],
+  "extends": [],
+  "references": [],
+  /** ===== "compilerOptions" */
+  "compilerOptions": {
+    /** --------------------
+    Type Checking
+    -------------------- */
+    /*---- Strict Mode ----*/
+    "strict": null,
+    "alwaysStrict": null,
+    "noImplicitAny": null,
+    "noImplicitThis": null,
+    "strictBindCallApply": null,
+    "strictBuiltinIteratorReturn": null,
+    "strictFunctionTypes": null,
+    "strictNullChecks": null,
+    "strictPropertyInitialization": null,
+    "useUnknownInCatchVariables": null,
+    /*---- Code-Quality & Linter Rules /*----*/
+    // Dead Code & Variable Checking
+    "allowUnreachableCode": null,
+    "allowUnusedLabels": null,
+    "noUnusedLocals": null,
+    "noUnusedParameters": null,
+    // Enhanced Object & Property Checks
+    "exactOptionalPropertyTypes": null,
+    "noPropertyAccessFromIndexSignature": null,
+    "noUncheckedIndexedAccess": null,
+    // Control Flow & Class Checks
+    "noFallthroughCasesInSwitch": null,
+    "noImplicitOverride": null,
+    "noImplicitReturns": null,
+    /** --------------------
+    Modules
+    -------------------- */
+    /*---- Paths & Root Configurations ----*/
+    "baseUrl": null,
+    "paths": null,
+    "rootDir": null,
+    "rootDirs": null,
+    /*---- Core Resolution Algorithms ----*/
+    "module": null,
+    "moduleResolution": null,
+    "customConditions": null,
+    "moduleSuffixes": null,
+    "noResolve": null,
+    /*---- Extensions & Interoperability ----*/
+    "allowArbitraryExtensions": null,
+    "allowImportingTsExtensions": null,
+    "rewriteRelativeImportExtensions": null,
+    "resolveJsonModule": null,
+    "noUncheckedSideEffectImports": null,
+    /*---- Global Packages, Exports, & Defs ----*/
+    "resolvePackageJsonExports": null,
+    "resolvePackageJsonImports": null,
+    "allowUmdGlobalAccess": null,
+    "typeRoots": null,
+    "types": [],
+    /** --------------------
+    Emit
+    -------------------- */
+    /*---- Output Directories & Bundling ----*/
+    "outDir": null,
+    "outFile": null,
+    "declarationDir": null,
+    /*---- Code Generation & Optimization ----*/
+    "downlevelIteration": null,
+    "emitBOM": false,
+    "importHelpers": false,
+    "newLine": "lf",
+    "noEmitHelpers": false,
+    "preserveConstEnums": false,
+    "removeComments": false,
+    /*---- Source Map Management ----*/
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "mapRoot": null,
+    "sourceRoot": null,
+    /*---- Emission Controls & Declarations ----*/
+    "noEmit": false,
+    "noEmitOnError": false,
+    "declaration": null,
+    "emitDeclarationOnly": false,
+    "declarationMap": false,
+    "stripInternal": null,
+    /** --------------------
+    JavaScript Support
+    -------------------- */
+    "allowJs": false,
+    "checkJs": false,
+    "maxNodeModuleJsDepth": 0,
+    /** --------------------
+    Editor Support
+    -------------------- */
+    "disableSizeLimit": false,
+    "plugins": null,
+    /** --------------------
+    Interop Constraints
+    -------------------- */
+    /*---- ES Modules & CommonJS Interoperability ----*/
+    "allowSyntheticDefaultImports": null,
+    "esModuleInterop": null,
+    "verbatimModuleSyntax": null,
+    /*---- Single-File Transpilation & Modern Runtimes ----*/
+    "isolatedModules": false,
+    "isolatedDeclarations": false,
+    "erasableSyntaxOnly": false,
+    /*---- Operating System & File System Constraints ----*/
+    "forceConsistentCasingInFileNames": true,
+    "preserveSymlinks": false,
+    /** --------------------
+    Backwards Compatibility
+    -------------------- */
+    /*---- Deprecated Module & Import Handling ----*/
+    "importsNotUsedAsValues": "remove",
+    "preserveValueImports": false,
+    /*---- Legacy Output & File Handling ----*/
+    "out": null,
+    "charset": null,
+    "noImplicitUseStrict": false,
+    /*---- Type Checking Suppressions ----*/
+    "suppressExcessPropertyErrors": false,
+    "suppressImplicitAnyIndexErrors": false,
+    /*---- Legacy Internal Compiler Settings ----*/
+    "keyofStringsOnly": false,
+    "noStrictGenericChecks": false,
+    /** --------------------
+    Language and Environment
+    -------------------- */
+    /*---- JavaScript Target & Global Environments ----*/
+    "target": "es2025",
+    "lib": null,
+    "noLib": false,
+    "libReplacement": false,
+    "moduleDetection": "auto",
+    /*---- JSX Support & Configuration ----*/
+    "jsx": "react",
+    "jsxImportSource": "react",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+    "reactNamespace": "React",
+    /*---- Class Fields & Experimental Features ----*/
+    "useDefineForClassFields": false,
+    "experimentalDecorators": null,
+    "emitDecoratorMetadata": null,
+    /** --------------------
+    Compiler Diagnostics
+    -------------------- */
+    /*---- Performance Profiling & Metrics ----*/
+    "diagnostics": null,
+    "extendedDiagnostics": false,
+    "generateCpuProfile": "profile.cpuprofile",
+    "generateTrace": null,
+    /*---- File Graph & Input/Output Auditing ----*/
+    "listFiles": false,
+    "explainFiles": true,
+    "listEmittedFiles": false,
+    /*---- Resolution Tracing & Safety Toggles ----*/
+    "traceResolution": false,
+    "noCheck": false,
+    /** --------------------
+    Projects
+    -------------------- */
+    /*---- Project Reference & Build Activation ----*/
+    "composite": true,
+    "incremental": null,
+    /*---- Build Cache & Artifact Tracking ----*/
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "disableSourceOfProjectReferenceRedirect": null,
+    /*---- Performance & Editor Optimization ----*/
+    "disableReferencedProjectLoad": null,
+    "disableSolutionSearching": null,
+    /** --------------------
+    Output Formatting
+    -------------------- */
+    "noErrorTruncation": false,
+    "preserveWatchOutput": null,
+    "pretty": true,
+    /** --------------------
+    Completeness & Type-Check Optimization
+    -------------------- */
+    "skipDefaultLibCheck": false,
+    "skipLibCheck": false,
+    /** --------------------
+    Watch Options
+    -------------------- */
+    "assumeChangesOnlyAffectDirectDependencies": null,
+  },
+  /** ===== "watchOptions" */
+  "watchOptions": {
+    "watchFile": null,
+    "watchDirectory": null,
+    "fallbackPolling": null,
+    "synchronousWatchDirectory": null,
+    "excludeDirectories": null,
+    "excludeFiles": null
+  },
+  /** ===== "typeAcquisition" */
+  "typeAcquisition": {
+    "enable": false,
+    "include": null,
+    "exclude": null,
+    "disableFilenameBasedTypeAcquisition": null
+  }
+}
