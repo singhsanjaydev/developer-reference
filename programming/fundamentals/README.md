@@ -1,0 +1,2 @@
+- 01 - [Values and information](values-and-information.md)
+- 02 - [Variables and state](variables-and-state.md)
