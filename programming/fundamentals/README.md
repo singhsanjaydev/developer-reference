@@ -1,5 +1,0 @@
-- 01 - [Values and information](values-and-information.md)
-- 02 - [Variables and state](variables-and-state.md)
-- 03 - [Expressions and operations](expressions-and-operations.md)
-- 04 - [Control Flow](control-flow.md)
-- 
