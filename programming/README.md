@@ -52,3 +52,13 @@ Operators are the action symbols that allow you to combine, compare, transform, 
   - `OR`: Requires _at least one_ condition to be true.
   - `NOT`: Inverts the logic completely (turns true to false, and vice versa).
 - **Operator Precedence:** The strict mathematical order of operations determining which calculations are executed first (e.g., multiplication happening before addition).
+
+### Decision Making: Control Flow & Conditionals
+
+By default, programs execute linearly from top to bottom. Control flow mechanisms allow the program to branch off into different directions based on real-time conditions.
+
+- **The Binary Choice (If / Else):** The most foundational decision branch. _If_ a condition evaluates to true, run code block A; _Else_ (otherwise), run code block B.
+- **Multiple Branches (If / Else-If / Else):** Chains multiple conditions together sequentially. The program checks them one by one until it finds the first true condition, executes it, and skips the rest.
+- **Nested Conditionals:** Placing a decision structure entirely inside another decision structure (e.g., "If it is raining, check if I own an umbrella. If yes, walk outside; if no, stay indoors").
+- **Multi-way Selection (Switch / Match Case):** A specialized control structure that maps a single variable against a list of exact matching values to execute specific commands, cleaning up cluttered chains of nested "If" statements.
+
