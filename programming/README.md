@@ -62,3 +62,15 @@ By default, programs execute linearly from top to bottom. Control flow mechanism
 - **Nested Conditionals:** Placing a decision structure entirely inside another decision structure (e.g., "If it is raining, check if I own an umbrella. If yes, walk outside; if no, stay indoors").
 - **Multi-way Selection (Switch / Match Case):** A specialized control structure that maps a single variable against a list of exact matching values to execute specific commands, cleaning up cluttered chains of nested "If" statements.
 
+### Automation: Loops & Iteration
+
+Loops tell the computer to repeat a specific block of code multiple times, saving developers from manually writing the exact same commands over and over.
+
+- **Condition-Controlled Loops (While Loops):** Repeats a block of code indefinitely _while_ a specific condition remains true. It stops the moment the condition flips to false.
+- **Count-Controlled Loops (For Loops):** Repeats a block of code a predetermined, exact number of times using a built-in tracking counter.
+- **Collection-Controlled Loops (For-Each / Iterators):** Automatically steps through an organized list of items one by one from start to finish, executing code for each individual item.
+- **Loop Control Mechanisms:**
+  - `Break`: Immediately forces the loop to terminate early, snapping the program out to the next section of code.
+  - `Continue`: Skips the remainder of the current loop cycle and immediately jumps back up to check the condition for the next turn.
+
+- **Infinite Loops & Bounds Errors:** A logical bug where the loop's exit condition is never met, causing the program to run forever until the system runs out of memory or crashes.
